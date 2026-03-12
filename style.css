@@ -1,0 +1,45 @@
+body{
+  background-color: skyblue;
+  color: white;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+}
+fieldset{
+  background-color: black;
+  border: 2px solid black;
+}
+
+span{
+  color: black;
+  
+}
+
+.rating {
+  direction: rtl;
+  font-size: 30px;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  color: lightgray;
+  cursor: pointer;
+}
+
+.rating input:checked~label {
+  color: gold;
+}
+
+.rating label:hover,
+.rating label:hover~label {
+  color: gold;
+}
+input, textarea, select {
+width: 80%;
+padding: 10px;
+border-radius: 8px;
+border: none;
+}
